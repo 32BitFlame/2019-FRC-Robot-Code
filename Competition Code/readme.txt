@@ -1,1 +1,1 @@
-This is where the code goes that is our main branch for competitions
+This is where the code goes that is our main branch for competitions.
