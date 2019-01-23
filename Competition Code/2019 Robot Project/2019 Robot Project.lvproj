@@ -114,21 +114,31 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Deadband Joystick.vi" Type="VI" URL="../Deadband Joystick.vi"/>
-		<Item Name="Encoder Data.ctl" Type="VI" URL="../Encoder Data.ctl"/>
-		<Item Name="Kinematics Data.ctl" Type="VI" URL="../Kinematics Data.ctl"/>
-		<Item Name="Get Angle Errors.vi" Type="VI" URL="../Get Angle Errors.vi"/>
-		<Item Name="Get Encoder.vi" Type="VI" URL="../Get Encoder.vi"/>
-		<Item Name="Joystick to Swerve New.vi" Type="VI" URL="../Joystick to Swerve New.vi"/>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Pivot Motor Commands.ctl" Type="VI" URL="../Pivot Motor Commands.ctl"/>
+			<Item Name="Robot Drive Mode.ctl" Type="VI" URL="../Robot Drive Mode.ctl"/>
+			<Item Name="Robot Pivot Motion Commands.ctl" Type="VI" URL="../Robot Pivot Motion Commands.ctl"/>
+		</Item>
+		<Item Name="Dev Code" Type="Folder">
+			<Item Name="Deadband Joystick.vi" Type="VI" URL="../Deadband Joystick.vi"/>
+			<Item Name="Encoder Data.ctl" Type="VI" URL="../Encoder Data.ctl"/>
+			<Item Name="Kinematics Data.ctl" Type="VI" URL="../Kinematics Data.ctl"/>
+			<Item Name="Get Angle Errors.vi" Type="VI" URL="../Get Angle Errors.vi"/>
+			<Item Name="Get Encoder.vi" Type="VI" URL="../Get Encoder.vi"/>
+			<Item Name="Joystick to Swerve New.vi" Type="VI" URL="../Joystick to Swerve New.vi"/>
+			<Item Name="Swerve Drive.vi" Type="VI" URL="../Swerve Drive.vi"/>
+			<Item Name="Fix Angles.vi" Type="VI" URL="../Fix Angles.vi"/>
+			<Item Name="Fix Offset.vi" Type="VI" URL="../Fix Offset.vi"/>
+			<Item Name="Get Error.vi" Type="VI" URL="../Get Error.vi"/>
+			<Item Name="Error Data.ctl" Type="VI" URL="../Error Data.ctl"/>
+			<Item Name="Motor Data.ctl" Type="VI" URL="../Motor Data.ctl"/>
+			<Item Name="Control Drive Motors.vi" Type="VI" URL="../Control Drive Motors.vi"/>
+			<Item Name="Control Pivot Motors.vi" Type="VI" URL="../Control Pivot Motors.vi"/>
+		</Item>
+		<Item Name="Functions" Type="Folder">
+			<Item Name="Pivot Drive" Type="Folder"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Swerve Drive.vi" Type="VI" URL="../Swerve Drive.vi"/>
-		<Item Name="Fix Angles.vi" Type="VI" URL="../Fix Angles.vi"/>
-		<Item Name="Fix Offset.vi" Type="VI" URL="../Fix Offset.vi"/>
-		<Item Name="Get Error.vi" Type="VI" URL="../Get Error.vi"/>
-		<Item Name="Error Data.ctl" Type="VI" URL="../Error Data.ctl"/>
-		<Item Name="Motor Data.ctl" Type="VI" URL="../Motor Data.ctl"/>
-		<Item Name="Control Drive Motors.vi" Type="VI" URL="../Control Drive Motors.vi"/>
-		<Item Name="Control Pivot Motors.vi" Type="VI" URL="../Control Pivot Motors.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>

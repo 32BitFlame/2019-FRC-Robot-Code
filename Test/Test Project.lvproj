@@ -96,6 +96,27 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Pivot Motor Commands.ctl" Type="VI" URL="../Pivot Motor Commands.ctl"/>
+			<Item Name="Robot Drive Mode.ctl" Type="VI" URL="../Robot Drive Mode.ctl"/>
+			<Item Name="Robot Pivot Motion Commands.ctl" Type="VI" URL="../Robot Pivot Motion Commands.ctl"/>
+		</Item>
+		<Item Name="Dev Code" Type="Folder">
+			<Item Name="Control Drive Motors.vi" Type="VI" URL="../Control Drive Motors.vi"/>
+			<Item Name="Control Pivot Motors.vi" Type="VI" URL="../Control Pivot Motors.vi"/>
+			<Item Name="Deadband.vi" Type="VI" URL="../Deadband.vi"/>
+			<Item Name="Fix offset.vi" Type="VI" URL="../Fix offset.vi"/>
+			<Item Name="FIx thing.vi" Type="VI" URL="../FIx thing.vi"/>
+			<Item Name="Get Angle Error.vi" Type="VI" URL="../Get Angle Error.vi"/>
+			<Item Name="Get Error.vi" Type="VI" URL="../Get Error.vi"/>
+			<Item Name="Joystick to Data.vi" Type="VI" URL="../Joystick to Data.vi"/>
+			<Item Name="Joystick to Swerve New.vi" Type="VI" URL="../Joystick to Swerve New.vi"/>
+			<Item Name="Read Encoders.vi" Type="VI" URL="../Read Encoders.vi"/>
+			<Item Name="Swerve Drive.vi" Type="VI" URL="../Swerve Drive.vi"/>
+		</Item>
+		<Item Name="Functions" Type="Folder">
+			<Item Name="Pivot Drive" Type="Folder"/>
+		</Item>
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -113,11 +134,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Control Pivot Motors.vi" Type="VI" URL="../Control Pivot Motors.vi"/>
-		<Item Name="Deadband.vi" Type="VI" URL="../Deadband.vi"/>
-		<Item Name="Fix offset.vi" Type="VI" URL="../Fix offset.vi"/>
-		<Item Name="FIx thing.vi" Type="VI" URL="../FIx thing.vi"/>
-		<Item Name="Get Angle Error.vi" Type="VI" URL="../Get Angle Error.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -503,13 +519,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Control Drive Motors.vi" Type="VI" URL="../Control Drive Motors.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Error.vi" Type="VI" URL="../Get Error.vi"/>
-			<Item Name="Joystick to Data.vi" Type="VI" URL="../Joystick to Data.vi"/>
-			<Item Name="Joystick to Swerve New.vi" Type="VI" URL="../Joystick to Swerve New.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -519,8 +531,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read Encoders.vi" Type="VI" URL="../Read Encoders.vi"/>
-			<Item Name="Swerve Drive.vi" Type="VI" URL="../Swerve Drive.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
