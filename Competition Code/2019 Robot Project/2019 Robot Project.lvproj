@@ -139,6 +139,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Pivot Drive" Type="Folder"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="FindMinSteerAngleError.vi" Type="VI" URL="../FindMinSteerAngleError.vi"/>
+		<Item Name="find steer angle errors.vi" Type="VI" URL="../find steer angle errors.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
