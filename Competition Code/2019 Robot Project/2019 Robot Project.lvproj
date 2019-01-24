@@ -136,11 +136,16 @@ AddOutputFilter chunkFilter
 			<Item Name="Control Pivot Motors.vi" Type="VI" URL="../Control Pivot Motors.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
-			<Item Name="Pivot Drive" Type="Folder"/>
+			<Item Name="Pivot Drive" Type="Folder">
+				<Item Name="FindMinSteerAngleError.vi" Type="VI" URL="../FindMinSteerAngleError.vi"/>
+				<Item Name="find steer angle errors.vi" Type="VI" URL="../find steer angle errors.vi"/>
+				<Item Name="ControlDriveVelocity.vi" Type="VI" URL="../ControlDriveVelocity.vi"/>
+				<Item Name="DriveJoystickAcquire.vi" Type="VI" URL="../DriveJoystickAcquire.vi"/>
+				<Item Name="JoystickDeadband.vi" Type="VI" URL="../JoystickDeadband.vi"/>
+				<Item Name="RobotMotionCommands2Dashboard.vi" Type="VI" URL="../RobotMotionCommands2Dashboard.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="FindMinSteerAngleError.vi" Type="VI" URL="../FindMinSteerAngleError.vi"/>
-		<Item Name="find steer angle errors.vi" Type="VI" URL="../find steer angle errors.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
