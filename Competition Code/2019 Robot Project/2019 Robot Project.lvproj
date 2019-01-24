@@ -141,6 +141,7 @@ AddOutputFilter chunkFilter
 				<Item Name="find steer angle errors.vi" Type="VI" URL="../find steer angle errors.vi"/>
 				<Item Name="ControlDriveVelocity.vi" Type="VI" URL="../ControlDriveVelocity.vi"/>
 				<Item Name="DriveJoystickAcquire.vi" Type="VI" URL="../DriveJoystickAcquire.vi"/>
+				<Item Name="Joystick2RobotMotorCommands.vi" Type="VI" URL="../Joystick2RobotMotorCommands.vi"/>
 				<Item Name="JoystickDeadband.vi" Type="VI" URL="../JoystickDeadband.vi"/>
 				<Item Name="RobotMotionCommands2Dashboard.vi" Type="VI" URL="../RobotMotionCommands2Dashboard.vi"/>
 			</Item>
@@ -542,6 +543,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Robot Drive Mode.ctl" Type="VI" URL="../../../Development Code/Swerve Drive Sim Code/Robot Drive Mode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
