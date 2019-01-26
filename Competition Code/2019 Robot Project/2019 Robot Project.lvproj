@@ -142,19 +142,21 @@ AddOutputFilter chunkFilter
 				<Item Name="find steer angle errors.vi" Type="VI" URL="../find steer angle errors.vi"/>
 				<Item Name="ControlDriveVelocity.vi" Type="VI" URL="../ControlDriveVelocity.vi"/>
 				<Item Name="DriveJoystickAcquire.vi" Type="VI" URL="../DriveJoystickAcquire.vi"/>
+				<Item Name="joystick scaleNtransform.vi" Type="VI" URL="../joystick scaleNtransform.vi"/>
 				<Item Name="Joystick2RobotMotorCommands.vi" Type="VI" URL="../Joystick2RobotMotorCommands.vi"/>
 				<Item Name="JoystickDeadband.vi" Type="VI" URL="../JoystickDeadband.vi"/>
 				<Item Name="DriveJoystickButtonMapping.vi" Type="VI" URL="../DriveJoystickButtonMapping.vi"/>
 				<Item Name="ControlSteerAngle.vi" Type="VI" URL="../ControlSteerAngle.vi"/>
+				<Item Name="Get Gyro Sensor.vi" Type="VI" URL="../Get Gyro Sensor.vi"/>
 				<Item Name="RobotMotionCommands2Dashboard.vi" Type="VI" URL="../RobotMotionCommands2Dashboard.vi"/>
 				<Item Name="GetActualSteerAngles.vi" Type="VI" URL="../GetActualSteerAngles.vi"/>
+				<Item Name="getdrive joystick.vi" Type="VI" URL="../getdrive joystick.vi"/>
 			</Item>
 			<Item Name="reset gyro.vi" Type="VI" URL="../reset gyro.vi"/>
 			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../SecondaryJoystickAcquire.vi"/>
 			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../SecondaryRobotFunctions.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Get Gyro Sensor.vi" Type="VI" URL="../Get Gyro Sensor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -605,6 +607,7 @@ AddOutputFilter chunkFilter
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
