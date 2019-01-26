@@ -152,6 +152,9 @@ AddOutputFilter chunkFilter
 				<Item Name="GetActualSteerAngles.vi" Type="VI" URL="../GetActualSteerAngles.vi"/>
 				<Item Name="getdrive joystick.vi" Type="VI" URL="../getdrive joystick.vi"/>
 			</Item>
+			<Item Name="Lift" Type="Folder">
+				<Item Name="Set Lift Speeds.vi" Type="VI" URL="../Set Lift Speeds.vi"/>
+			</Item>
 			<Item Name="reset gyro.vi" Type="VI" URL="../reset gyro.vi"/>
 			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../SecondaryJoystickAcquire.vi"/>
 			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../SecondaryRobotFunctions.vi"/>
@@ -608,6 +611,7 @@ AddOutputFilter chunkFilter
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
