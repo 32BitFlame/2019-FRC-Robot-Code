@@ -102,25 +102,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
-		<Item Name="Swerve Drive" Type="Folder">
-			<Item Name="Swerve Drive Support Code" Type="Folder">
-				<Item Name="Add Offsets.vi" Type="VI" URL="../Add Offsets.vi"/>
-				<Item Name="Angle offsets.ctl" Type="VI" URL="../Angle offsets.ctl"/>
-				<Item Name="Calculate Error.vi" Type="VI" URL="../Calculate Error.vi"/>
-				<Item Name="Control Drive Motors.vi" Type="VI" URL="../Control Drive Motors.vi"/>
-				<Item Name="Control Pivot Motors.vi" Type="VI" URL="../Control Pivot Motors.vi"/>
-				<Item Name="Deadband Joystick.vi" Type="VI" URL="../Deadband Joystick.vi"/>
-				<Item Name="Encoder to 360.vi" Type="VI" URL="../Encoder to 360.vi"/>
-				<Item Name="Encoder Unpacked Data.ctl" Type="VI" URL="../Encoder Unpacked Data.ctl"/>
-				<Item Name="Final Motor Data.ctl" Type="VI" URL="../Final Motor Data.ctl"/>
-				<Item Name="Fix Offsets.vi" Type="VI" URL="../Fix Offsets.vi"/>
-				<Item Name="Get Encoder Angles.vi" Type="VI" URL="../Get Encoder Angles.vi"/>
-				<Item Name="Joystick to Swerve New.vi" Type="VI" URL="../Joystick to Swerve New.vi"/>
-				<Item Name="Motor Data Unpacked.ctl" Type="VI" URL="../Motor Data Unpacked.ctl"/>
-				<Item Name="Pack Data.vi" Type="VI" URL="../Pack Data.vi"/>
-			</Item>
-			<Item Name="Swerve Drive Main.vi" Type="VI" URL="../Swerve Drive Main.vi"/>
-		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -132,7 +113,22 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="Add Offsets.vi" Type="VI" URL="../Add Offsets.vi"/>
+		<Item Name="Angle offsets.ctl" Type="VI" URL="../Angle offsets.ctl"/>
+		<Item Name="Calculate Error.vi" Type="VI" URL="../Calculate Error.vi"/>
+		<Item Name="Control Drive Motors.vi" Type="VI" URL="../Control Drive Motors.vi"/>
+		<Item Name="Control Pivot Motors.vi" Type="VI" URL="../Control Pivot Motors.vi"/>
+		<Item Name="Deadband Joystick.vi" Type="VI" URL="../Deadband Joystick.vi"/>
+		<Item Name="Encoder to 360.vi" Type="VI" URL="../Encoder to 360.vi"/>
+		<Item Name="Encoder Unpacked Data.ctl" Type="VI" URL="../Encoder Unpacked Data.ctl"/>
+		<Item Name="Final Motor Data.ctl" Type="VI" URL="../Final Motor Data.ctl"/>
+		<Item Name="Fix Offsets.vi" Type="VI" URL="../Fix Offsets.vi"/>
+		<Item Name="Get Encoder Angles.vi" Type="VI" URL="../Get Encoder Angles.vi"/>
+		<Item Name="Joystick to Swerve New.vi" Type="VI" URL="../Joystick to Swerve New.vi"/>
+		<Item Name="Motor Data Unpacked.ctl" Type="VI" URL="../Motor Data Unpacked.ctl"/>
+		<Item Name="Pack Data.vi" Type="VI" URL="../Pack Data.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Swerve Drive Main.vi" Type="VI" URL="../Swerve Drive Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -530,11 +526,11 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_buildSpecName" Type="Str">FRC Robot Boot-up Deployment</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/F/YESYYESYES/Builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/FRC Robot Boot-up Deployment</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -548,7 +544,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{59B30347-6BE0-43F0-8F07-95178B73947D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8C3304E1-D5E8-47A4-A871-E1204A986838}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
