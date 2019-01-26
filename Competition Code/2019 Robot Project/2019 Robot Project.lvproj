@@ -146,11 +146,13 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveJoystickButtonMapping.vi" Type="VI" URL="../DriveJoystickButtonMapping.vi"/>
 				<Item Name="ControlSteerAngle.vi" Type="VI" URL="../ControlSteerAngle.vi"/>
 				<Item Name="RobotMotionCommands2Dashboard.vi" Type="VI" URL="../RobotMotionCommands2Dashboard.vi"/>
+				<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../SecondaryJoystickAcquire.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="GetActualSteerAngles.vi" Type="VI" URL="../GetActualSteerAngles.vi"/>
 		<Item Name="reset gyro.vi" Type="VI" URL="../reset gyro.vi"/>
+		<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../SecondaryRobotFunctions.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
