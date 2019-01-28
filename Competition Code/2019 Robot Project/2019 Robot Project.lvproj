@@ -153,14 +153,16 @@ AddOutputFilter chunkFilter
 				<Item Name="getdrive joystick.vi" Type="VI" URL="../getdrive joystick.vi"/>
 			</Item>
 			<Item Name="Lift" Type="Folder">
+				<Item Name="Lift Enable Brakes.vi" Type="VI" URL="../Lift Enable Brakes.vi"/>
 				<Item Name="Set Lift Speeds.vi" Type="VI" URL="../Set Lift Speeds.vi"/>
+				<Item Name="GetLiftLimitSwitches.vi" Type="VI" URL="../GetLiftLimitSwitches.vi"/>
+				<Item Name="Calc Lift Speeds.vi" Type="VI" URL="../Calc Lift Speeds.vi"/>
 			</Item>
 			<Item Name="reset gyro.vi" Type="VI" URL="../reset gyro.vi"/>
 			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../SecondaryJoystickAcquire.vi"/>
 			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../SecondaryRobotFunctions.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Lift Enable Brakes.vi" Type="VI" URL="../Lift Enable Brakes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -642,6 +644,11 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SolenoidValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl"/>
 				<Item Name="WPI_SolenoidSetEnum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSetEnum.vi"/>
 				<Item Name="WPI_SolenoidSet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSet.vi"/>
+				<Item Name="WPI_DigitalInputRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Get.vi"/>
+				<Item Name="WPI_DigitalInputGetValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputGetValue.vi"/>
+				<Item Name="WPI_DigitalInputToDigitalModule.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputToDigitalModule.vi"/>
+				<Item Name="WPI_DigitalModuleGetDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleGetDIO.vi"/>
+				<Item Name="FPGA_DIOReadDI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadDI.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
