@@ -14,6 +14,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SetBallMotorSpeed.vi" Type="VI" URL="../SetBallMotorSpeed.vi"/>
+		<Item Name="Ball Intake System.vi" Type="VI" URL="../Ball Intake System.vi"/>
+		<Item Name="ArmCurlSystem.vi" Type="VI" URL="../ArmCurlSystem.vi"/>
+		<Item Name="GetCurlSpeed.vi" Type="VI" URL="../GetCurlSpeed.vi"/>
+		<Item Name="CalcArmCurlSpeed.vi" Type="VI" URL="../CalcArmCurlSpeed.vi"/>
+		<Item Name="ArmCurls.vi" Type="VI" URL="../ArmCurls.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -73,6 +78,8 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="SecondaryJoystickButtonMapping.vi" Type="VI" URL="../SecondaryJoystickButtonMapping.vi"/>
+			<Item Name="Ball Intake.vi" Type="VI" URL="../Ball Intake.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -220,9 +227,12 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Ball Intake" Type="Folder">
 				<Item Name="Ball Intake.vi" Type="VI" URL="../Ball Intake.vi"/>
+				<Item Name="SetBallMotorSpeed.vi" Type="VI" URL="../SetBallMotorSpeed.vi"/>
+				<Item Name="Ball Intake System.vi" Type="VI" URL="../Ball Intake System.vi"/>
 			</Item>
 			<Item Name="reset gyro.vi" Type="VI" URL="../reset gyro.vi"/>
 			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../SecondaryJoystickAcquire.vi"/>
+			<Item Name="SecondaryJoystickButtonMapping.vi" Type="VI" URL="../SecondaryJoystickButtonMapping.vi"/>
 			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../SecondaryRobotFunctions.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
