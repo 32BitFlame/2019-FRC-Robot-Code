@@ -71,6 +71,8 @@
 				<Item Name="WPI_MotorControlSafetyCheck.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlSafetyCheck.vi"/>
 				<Item Name="WPI_MotorControlSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlSafetyUpdate.vi"/>
 				<Item Name="WPI_MotorControlSetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlSetOutput.vi"/>
+				<Item Name="FPGA_SystemGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemGet.vi"/>
+				<Item Name="FPGA_SystemStart Async Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemStart Async Agent.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="DC Motor Controller.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/DC Motor Controller/HAIOL/DC Motor Controller.lvclass"/>
@@ -220,6 +222,7 @@ AddOutputFilter chunkFilter
 				<Item Name="getdrive joystick.vi" Type="VI" URL="../getdrive joystick.vi"/>
 			</Item>
 			<Item Name="Lift" Type="Folder">
+				<Item Name="LiftSystem.vi" Type="VI" URL="../LiftSystem.vi"/>
 				<Item Name="Lift Enable Brakes.vi" Type="VI" URL="../Lift Enable Brakes.vi"/>
 				<Item Name="Set Lift Speeds.vi" Type="VI" URL="../Set Lift Speeds.vi"/>
 				<Item Name="GetLiftLimitSwitches.vi" Type="VI" URL="../GetLiftLimitSwitches.vi"/>
@@ -229,6 +232,12 @@ AddOutputFilter chunkFilter
 				<Item Name="Ball Intake.vi" Type="VI" URL="../Ball Intake.vi"/>
 				<Item Name="SetBallMotorSpeed.vi" Type="VI" URL="../SetBallMotorSpeed.vi"/>
 				<Item Name="Ball Intake System.vi" Type="VI" URL="../Ball Intake System.vi"/>
+			</Item>
+			<Item Name="ArmCurlSystem" Type="Folder">
+				<Item Name="ArmCurls.vi" Type="VI" URL="../ArmCurls.vi"/>
+				<Item Name="GetCurlSpeed.vi" Type="VI" URL="../GetCurlSpeed.vi"/>
+				<Item Name="CalcArmCurlSpeed.vi" Type="VI" URL="../CalcArmCurlSpeed.vi"/>
+				<Item Name="ArmCurlSystem.vi" Type="VI" URL="../ArmCurlSystem.vi"/>
 			</Item>
 			<Item Name="reset gyro.vi" Type="VI" URL="../reset gyro.vi"/>
 			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../SecondaryJoystickAcquire.vi"/>
