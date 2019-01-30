@@ -19,6 +19,7 @@
 		<Item Name="GetCurlSpeed.vi" Type="VI" URL="../GetCurlSpeed.vi"/>
 		<Item Name="CalcArmCurlSpeed.vi" Type="VI" URL="../CalcArmCurlSpeed.vi"/>
 		<Item Name="ArmCurls.vi" Type="VI" URL="../ArmCurls.vi"/>
+		<Item Name="MoveGrip.vi" Type="VI" URL="../MoveGrip.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
