@@ -120,6 +120,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Robot Drive Mode.ctl" Type="VI" URL="../Robot Drive Mode.ctl"/>
 			<Item Name="Robot Pivot Motion Commands.ctl" Type="VI" URL="../Robot Pivot Motion Commands.ctl"/>
 			<Item Name="ADIS Gyro Values.ctl" Type="VI" URL="../ADIS Gyro Values.ctl"/>
+			<Item Name="DriveJoystickButtonMapping.ctl" Type="VI" URL="../DriveJoystickButtonMapping.ctl"/>
+			<Item Name="SecondaryJoystickButtons.ctl" Type="VI" URL="../SecondaryJoystickButtons.ctl"/>
 		</Item>
 		<Item Name="Dev Code" Type="Folder">
 			<Item Name="Deadband Joystick.vi" Type="VI" URL="../Deadband Joystick.vi"/>
@@ -683,7 +685,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="ADIS16448_IMU.lvlib" Type="Library" URL="../gyro sensor adis/ADIS16448 IMU/ADIS16448_IMU.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="SecondaryJoystickButtons.ctl" Type="VI" URL="../SecondaryJoystickButtons.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
