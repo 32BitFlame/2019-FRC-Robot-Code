@@ -13,6 +13,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="SecondaryJoystickButtons.ctl" Type="VI" URL="../SecondaryJoystickButtons.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -172,6 +173,8 @@ AddOutputFilter chunkFilter
 				<Item Name="ArmCurlSystem.vi" Type="VI" URL="../ArmCurlSystem.vi"/>
 			</Item>
 			<Item Name="Grip" Type="Folder">
+				<Item Name="GetGripLimitSwitches.vi" Type="VI" URL="../GetGripLimitSwitches.vi"/>
+				<Item Name="Grip System.vi" Type="VI" URL="../Grip System.vi"/>
 				<Item Name="MoveGrip.vi" Type="VI" URL="../MoveGrip.vi"/>
 			</Item>
 			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../SecondaryJoystickAcquire.vi"/>
@@ -179,7 +182,6 @@ AddOutputFilter chunkFilter
 			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../SecondaryRobotFunctions.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="GetGripLimitSwitches.vi" Type="VI" URL="../GetGripLimitSwitches.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -681,6 +683,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="ADIS16448_IMU.lvlib" Type="Library" URL="../gyro sensor adis/ADIS16448 IMU/ADIS16448_IMU.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="SecondaryJoystickButtons.ctl" Type="VI" URL="../SecondaryJoystickButtons.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
