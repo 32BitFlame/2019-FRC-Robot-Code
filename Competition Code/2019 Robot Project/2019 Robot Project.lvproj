@@ -181,6 +181,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../SecondaryJoystickAcquire.vi"/>
 			<Item Name="SecondaryJoystickButtonMapping.vi" Type="VI" URL="../SecondaryJoystickButtonMapping.vi"/>
 			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../SecondaryRobotFunctions.vi"/>
+			<Item Name="ExponentialSmoothing.vi" Type="VI" URL="../ExponentialSmoothing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
