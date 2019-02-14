@@ -101,88 +101,88 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
-			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Elapsed Times.vi" Type="VI" URL="../Support Code/Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
-			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
-			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
-			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
-			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
-			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
-			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
-			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Team Code/Autonomous Independent.vi"/>
+			<Item Name="Begin.vi" Type="VI" URL="../Team Code/Begin.vi"/>
+			<Item Name="Disabled.vi" Type="VI" URL="../Team Code/Disabled.vi"/>
+			<Item Name="Finish.vi" Type="VI" URL="../Team Code/Finish.vi"/>
+			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Team Code/Periodic Tasks.vi"/>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../Team Code/Robot Global Data.vi"/>
+			<Item Name="Teleop.vi" Type="VI" URL="../Team Code/Teleop.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../Team Code/Test.vi"/>
+			<Item Name="Vision Processing.vi" Type="VI" URL="../Team Code/Vision Processing.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
-			<Item Name="Pivot Motor Commands.ctl" Type="VI" URL="../Pivot Motor Commands.ctl"/>
-			<Item Name="Robot Drive Mode.ctl" Type="VI" URL="../Robot Drive Mode.ctl"/>
-			<Item Name="Robot Pivot Motion Commands.ctl" Type="VI" URL="../Robot Pivot Motion Commands.ctl"/>
-			<Item Name="ADIS Gyro Values.ctl" Type="VI" URL="../ADIS Gyro Values.ctl"/>
-			<Item Name="DriveJoystickButtonMapping.ctl" Type="VI" URL="../DriveJoystickButtonMapping.ctl"/>
-			<Item Name="SecondaryJoystickButtons.ctl" Type="VI" URL="../SecondaryJoystickButtons.ctl"/>
+			<Item Name="Pivot Motor Commands.ctl" Type="VI" URL="../Controls/Pivot Motor Commands.ctl"/>
+			<Item Name="Robot Drive Mode.ctl" Type="VI" URL="../Controls/Robot Drive Mode.ctl"/>
+			<Item Name="Robot Pivot Motion Commands.ctl" Type="VI" URL="../Controls/Robot Pivot Motion Commands.ctl"/>
+			<Item Name="ADIS Gyro Values.ctl" Type="VI" URL="../Controls/ADIS Gyro Values.ctl"/>
+			<Item Name="DriveJoystickButtonMapping.ctl" Type="VI" URL="../Controls/DriveJoystickButtonMapping.ctl"/>
+			<Item Name="SecondaryJoystickButtons.ctl" Type="VI" URL="../Controls/SecondaryJoystickButtons.ctl"/>
 		</Item>
 		<Item Name="Dev Code" Type="Folder">
-			<Item Name="Deadband Joystick.vi" Type="VI" URL="../Deadband Joystick.vi"/>
-			<Item Name="Encoder Data.ctl" Type="VI" URL="../Encoder Data.ctl"/>
-			<Item Name="Kinematics Data.ctl" Type="VI" URL="../Kinematics Data.ctl"/>
-			<Item Name="Get Angle Errors.vi" Type="VI" URL="../Get Angle Errors.vi"/>
-			<Item Name="Get Encoder.vi" Type="VI" URL="../Get Encoder.vi"/>
-			<Item Name="Joystick to Swerve New.vi" Type="VI" URL="../Joystick to Swerve New.vi"/>
-			<Item Name="Swerve Drive.vi" Type="VI" URL="../Swerve Drive.vi"/>
-			<Item Name="Fix Angles.vi" Type="VI" URL="../Fix Angles.vi"/>
-			<Item Name="Fix Offset.vi" Type="VI" URL="../Fix Offset.vi"/>
-			<Item Name="Get Error.vi" Type="VI" URL="../Get Error.vi"/>
-			<Item Name="Error Data.ctl" Type="VI" URL="../Error Data.ctl"/>
-			<Item Name="Motor Data.ctl" Type="VI" URL="../Motor Data.ctl"/>
-			<Item Name="Control Drive Motors.vi" Type="VI" URL="../Control Drive Motors.vi"/>
-			<Item Name="Control Pivot Motors.vi" Type="VI" URL="../Control Pivot Motors.vi"/>
+			<Item Name="Deadband Joystick.vi" Type="VI" URL="../Dev Code/Deadband Joystick.vi"/>
+			<Item Name="Encoder Data.ctl" Type="VI" URL="../Dev Code/Encoder Data.ctl"/>
+			<Item Name="Kinematics Data.ctl" Type="VI" URL="../Dev Code/Kinematics Data.ctl"/>
+			<Item Name="Get Angle Errors.vi" Type="VI" URL="../Dev Code/Get Angle Errors.vi"/>
+			<Item Name="Get Encoder.vi" Type="VI" URL="../Dev Code/Get Encoder.vi"/>
+			<Item Name="Joystick to Swerve New.vi" Type="VI" URL="../Dev Code/Joystick to Swerve New.vi"/>
+			<Item Name="Swerve Drive.vi" Type="VI" URL="../Dev Code/Swerve Drive.vi"/>
+			<Item Name="Fix Angles.vi" Type="VI" URL="../Dev Code/Fix Angles.vi"/>
+			<Item Name="Fix Offset.vi" Type="VI" URL="../Dev Code/Fix Offset.vi"/>
+			<Item Name="Get Error.vi" Type="VI" URL="../Dev Code/Get Error.vi"/>
+			<Item Name="Error Data.ctl" Type="VI" URL="../Dev Code/Error Data.ctl"/>
+			<Item Name="Motor Data.ctl" Type="VI" URL="../Dev Code/Motor Data.ctl"/>
+			<Item Name="Control Drive Motors.vi" Type="VI" URL="../Dev Code/Control Drive Motors.vi"/>
+			<Item Name="Control Pivot Motors.vi" Type="VI" URL="../Dev Code/Control Pivot Motors.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
 			<Item Name="Pivot Drive" Type="Folder">
-				<Item Name="FindMinSteerAngleError.vi" Type="VI" URL="../FindMinSteerAngleError.vi"/>
-				<Item Name="find steer angle errors.vi" Type="VI" URL="../find steer angle errors.vi"/>
-				<Item Name="ControlDriveVelocity.vi" Type="VI" URL="../ControlDriveVelocity.vi"/>
-				<Item Name="DriveJoystickAcquire.vi" Type="VI" URL="../DriveJoystickAcquire.vi"/>
-				<Item Name="joystick scaleNtransform.vi" Type="VI" URL="../joystick scaleNtransform.vi"/>
-				<Item Name="Joystick2RobotMotorCommands.vi" Type="VI" URL="../Joystick2RobotMotorCommands.vi"/>
-				<Item Name="JoystickDeadband.vi" Type="VI" URL="../JoystickDeadband.vi"/>
-				<Item Name="DriveJoystickButtonMapping.vi" Type="VI" URL="../DriveJoystickButtonMapping.vi"/>
-				<Item Name="ControlSteerAngle.vi" Type="VI" URL="../ControlSteerAngle.vi"/>
-				<Item Name="Get Gyro Sensor.vi" Type="VI" URL="../Get Gyro Sensor.vi"/>
-				<Item Name="RobotMotionCommands2Dashboard.vi" Type="VI" URL="../RobotMotionCommands2Dashboard.vi"/>
-				<Item Name="GetActualSteerAngles.vi" Type="VI" URL="../GetActualSteerAngles.vi"/>
-				<Item Name="reset gyro.vi" Type="VI" URL="../reset gyro.vi"/>
-				<Item Name="getdrive joystick.vi" Type="VI" URL="../getdrive joystick.vi"/>
+				<Item Name="ControlDriveVelocity.vi" Type="VI" URL="../Functions/Pivot Drive/ControlDriveVelocity.vi"/>
+				<Item Name="FindMinSteerAngleError.vi" Type="VI" URL="../Functions/Pivot Drive/FindMinSteerAngleError.vi"/>
+				<Item Name="find steer angle errors.vi" Type="VI" URL="../Functions/Pivot Drive/find steer angle errors.vi"/>
+				<Item Name="DriveJoystickAcquire.vi" Type="VI" URL="../Functions/Pivot Drive/DriveJoystickAcquire.vi"/>
+				<Item Name="joystick scaleNtransform.vi" Type="VI" URL="../Functions/Pivot Drive/joystick scaleNtransform.vi"/>
+				<Item Name="Joystick2RobotMotorCommands.vi" Type="VI" URL="../Functions/Pivot Drive/Joystick2RobotMotorCommands.vi"/>
+				<Item Name="JoystickDeadband.vi" Type="VI" URL="../Functions/Pivot Drive/JoystickDeadband.vi"/>
+				<Item Name="DriveJoystickButtonMapping.vi" Type="VI" URL="../Functions/Pivot Drive/DriveJoystickButtonMapping.vi"/>
+				<Item Name="ControlSteerAngle.vi" Type="VI" URL="../Functions/Pivot Drive/ControlSteerAngle.vi"/>
+				<Item Name="Get Gyro Sensor.vi" Type="VI" URL="../Functions/Pivot Drive/Get Gyro Sensor.vi"/>
+				<Item Name="RobotMotionCommands2Dashboard.vi" Type="VI" URL="../Functions/Pivot Drive/RobotMotionCommands2Dashboard.vi"/>
+				<Item Name="GetActualSteerAngles.vi" Type="VI" URL="../Functions/Pivot Drive/GetActualSteerAngles.vi"/>
+				<Item Name="reset gyro.vi" Type="VI" URL="../Functions/Pivot Drive/reset gyro.vi"/>
+				<Item Name="getdrive joystick.vi" Type="VI" URL="../Functions/Pivot Drive/getdrive joystick.vi"/>
 			</Item>
 			<Item Name="Lift" Type="Folder">
-				<Item Name="LiftSystem.vi" Type="VI" URL="../LiftSystem.vi"/>
-				<Item Name="Lift Enable Brakes.vi" Type="VI" URL="../Lift Enable Brakes.vi"/>
-				<Item Name="Set Lift Speeds.vi" Type="VI" URL="../Set Lift Speeds.vi"/>
-				<Item Name="GetLiftLimitSwitches.vi" Type="VI" URL="../GetLiftLimitSwitches.vi"/>
-				<Item Name="Calc Lift Speeds.vi" Type="VI" URL="../Calc Lift Speeds.vi"/>
+				<Item Name="LiftSystem.vi" Type="VI" URL="../Functions/Lift/LiftSystem.vi"/>
+				<Item Name="Lift Enable Brakes.vi" Type="VI" URL="../Functions/Lift/Lift Enable Brakes.vi"/>
+				<Item Name="Set Lift Speeds.vi" Type="VI" URL="../Functions/Lift/Set Lift Speeds.vi"/>
+				<Item Name="GetLiftLimitSwitches.vi" Type="VI" URL="../Functions/Lift/GetLiftLimitSwitches.vi"/>
+				<Item Name="Calc Lift Speeds.vi" Type="VI" URL="../Functions/Lift/Calc Lift Speeds.vi"/>
 			</Item>
 			<Item Name="Ball Intake" Type="Folder">
-				<Item Name="Ball Intake.vi" Type="VI" URL="../Ball Intake.vi"/>
-				<Item Name="SetBallMotorSpeed.vi" Type="VI" URL="../SetBallMotorSpeed.vi"/>
-				<Item Name="Ball Intake System.vi" Type="VI" URL="../Ball Intake System.vi"/>
+				<Item Name="Ball Intake.vi" Type="VI" URL="../Functions/Ball Intake/Ball Intake.vi"/>
+				<Item Name="SetBallMotorSpeed.vi" Type="VI" URL="../Functions/Ball Intake/SetBallMotorSpeed.vi"/>
+				<Item Name="Ball Intake System.vi" Type="VI" URL="../Functions/Ball Intake/Ball Intake System.vi"/>
 			</Item>
 			<Item Name="ArmCurlSystem" Type="Folder">
-				<Item Name="ArmCurls.vi" Type="VI" URL="../ArmCurls.vi"/>
-				<Item Name="GetCurlSpeed.vi" Type="VI" URL="../GetCurlSpeed.vi"/>
-				<Item Name="CalcArmCurlSpeed.vi" Type="VI" URL="../CalcArmCurlSpeed.vi"/>
-				<Item Name="ArmCurlSystem.vi" Type="VI" URL="../ArmCurlSystem.vi"/>
-				<Item Name="GetActualShoulderAngleData.vi" Type="VI" URL="../GetActualShoulderAngleData.vi"/>
+				<Item Name="ArmCurls.vi" Type="VI" URL="../Functions/Arm Curl System/ArmCurls.vi"/>
+				<Item Name="GetCurlSpeed.vi" Type="VI" URL="../Functions/Arm Curl System/GetCurlSpeed.vi"/>
+				<Item Name="CalcArmCurlSpeed.vi" Type="VI" URL="../Functions/Arm Curl System/CalcArmCurlSpeed.vi"/>
+				<Item Name="ArmCurlSystem.vi" Type="VI" URL="../Functions/Arm Curl System/ArmCurlSystem.vi"/>
+				<Item Name="GetActualShoulderAngleData.vi" Type="VI" URL="../Functions/Arm Curl System/GetActualShoulderAngleData.vi"/>
 			</Item>
 			<Item Name="Grip" Type="Folder">
-				<Item Name="GetGripLimitSwitches.vi" Type="VI" URL="../GetGripLimitSwitches.vi"/>
-				<Item Name="Grip System.vi" Type="VI" URL="../Grip System.vi"/>
-				<Item Name="MoveGrip.vi" Type="VI" URL="../MoveGrip.vi"/>
+				<Item Name="GetGripLimitSwitches.vi" Type="VI" URL="../Functions/Grip/GetGripLimitSwitches.vi"/>
+				<Item Name="Grip System.vi" Type="VI" URL="../Functions/Grip/Grip System.vi"/>
+				<Item Name="MoveGrip.vi" Type="VI" URL="../Functions/Grip/MoveGrip.vi"/>
 			</Item>
-			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../SecondaryJoystickAcquire.vi"/>
-			<Item Name="SecondaryJoystickButtonMapping.vi" Type="VI" URL="../SecondaryJoystickButtonMapping.vi"/>
-			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../SecondaryRobotFunctions.vi"/>
-			<Item Name="ExponentialSmoothing.vi" Type="VI" URL="../ExponentialSmoothing.vi"/>
+			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../Functions/SecondaryJoystickAcquire.vi"/>
+			<Item Name="SecondaryJoystickButtonMapping.vi" Type="VI" URL="../Functions/SecondaryJoystickButtonMapping.vi"/>
+			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../Functions/SecondaryRobotFunctions.vi"/>
+			<Item Name="ExponentialSmoothing.vi" Type="VI" URL="../Functions/ExponentialSmoothing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -589,7 +589,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SPIWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIWrite.vi"/>
 				<Item Name="spilib_read.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_read.vi"/>
 				<Item Name="WPI_SPIRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRead.vi"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 				<Item Name="NetComm_CAN_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_Send.vi"/>
 				<Item Name="WPI_CAN_PCMGlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMGlobalOps.ctl"/>
@@ -714,6 +713,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_EncoderRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderRefNum Registry Set.vi"/>
 				<Item Name="WPI_EncoderConfigureTimer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderConfigureTimer.vi"/>
 				<Item Name="WPI_EncoderReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderReset.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
