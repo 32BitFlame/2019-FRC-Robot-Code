@@ -160,19 +160,22 @@ AddOutputFilter chunkFilter
 				<Item Name="Get Gyro Sensor.vi" Type="VI" URL="../Functions/Pivot Drive/Get Gyro Sensor.vi"/>
 				<Item Name="RobotMotionCommands2Dashboard.vi" Type="VI" URL="../Functions/Pivot Drive/RobotMotionCommands2Dashboard.vi"/>
 				<Item Name="GetActualSteerAngles.vi" Type="VI" URL="../Functions/Pivot Drive/GetActualSteerAngles.vi"/>
-				<Item Name="reset gyro.vi" Type="VI" URL="../Functions/Pivot Drive/reset gyro.vi"/>
+				<Item Name="Initialize Gyro.vi" Type="VI" URL="../Functions/Pivot Drive/Initialize Gyro.vi"/>
 				<Item Name="getdrive joystick.vi" Type="VI" URL="../Functions/Pivot Drive/getdrive joystick.vi"/>
 				<Item Name="ControlDriveDistance.vi" Type="VI" URL="../Functions/Pivot Drive/ControlDriveDistance.vi"/>
+				<Item Name="Begin Swerve Drive.vi" Type="VI" URL="../Functions/Pivot Drive/Begin Swerve Drive.vi"/>
 			</Item>
 			<Item Name="Lift" Type="Folder">
 				<Item Name="LiftSystem.vi" Type="VI" URL="../Functions/Lift/LiftSystem.vi"/>
 				<Item Name="Lift Enable Brakes.vi" Type="VI" URL="../Functions/Lift/Lift Enable Brakes.vi"/>
 				<Item Name="Set Lift Speeds.vi" Type="VI" URL="../Functions/Lift/Set Lift Speeds.vi"/>
+				<Item Name="Intitialize Lift System.vi" Type="VI" URL="../Functions/Lift/Intitialize Lift System.vi"/>
 				<Item Name="GetLiftLimitSwitches.vi" Type="VI" URL="../Functions/Lift/GetLiftLimitSwitches.vi"/>
 				<Item Name="Calc Lift Speeds.vi" Type="VI" URL="../Functions/Lift/Calc Lift Speeds.vi"/>
 			</Item>
 			<Item Name="Ball Intake" Type="Folder">
 				<Item Name="Ball Intake.vi" Type="VI" URL="../Functions/Ball Intake/Ball Intake.vi"/>
+				<Item Name="Initialize Ball Intake System.vi" Type="VI" URL="../Functions/Ball Intake/Initialize Ball Intake System.vi"/>
 				<Item Name="SetBallMotorSpeed.vi" Type="VI" URL="../Functions/Ball Intake/SetBallMotorSpeed.vi"/>
 				<Item Name="Ball Intake System.vi" Type="VI" URL="../Functions/Ball Intake/Ball Intake System.vi"/>
 			</Item>
@@ -180,6 +183,7 @@ AddOutputFilter chunkFilter
 				<Item Name="ArmCurls.vi" Type="VI" URL="../Functions/Arm Curl System/ArmCurls.vi"/>
 				<Item Name="GetCurlSpeed.vi" Type="VI" URL="../Functions/Arm Curl System/GetCurlSpeed.vi"/>
 				<Item Name="CalcArmCurlSpeed.vi" Type="VI" URL="../Functions/Arm Curl System/CalcArmCurlSpeed.vi"/>
+				<Item Name="Initialize Arm System.vi" Type="VI" URL="../Functions/Arm Curl System/Initialize Arm System.vi"/>
 				<Item Name="ArmCurlSystem.vi" Type="VI" URL="../Functions/Arm Curl System/ArmCurlSystem.vi"/>
 				<Item Name="GetActualShoulderAngleData.vi" Type="VI" URL="../Functions/Arm Curl System/GetActualShoulderAngleData.vi"/>
 			</Item>
@@ -187,20 +191,20 @@ AddOutputFilter chunkFilter
 				<Item Name="GetGripLimitSwitches.vi" Type="VI" URL="../Functions/Grip/GetGripLimitSwitches.vi"/>
 				<Item Name="Grip System.vi" Type="VI" URL="../Functions/Grip/Grip System.vi"/>
 				<Item Name="MoveGrip.vi" Type="VI" URL="../Functions/Grip/MoveGrip.vi"/>
+				<Item Name="Initialize Grip System.vi" Type="VI" URL="../Functions/Grip/Initialize Grip System.vi"/>
 			</Item>
 			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../Functions/SecondaryJoystickAcquire.vi"/>
 			<Item Name="SecondaryJoystickButtonMapping.vi" Type="VI" URL="../Functions/SecondaryJoystickButtonMapping.vi"/>
+			<Item Name="Initialize Joystick.vi" Type="VI" URL="../Functions/Initialize Joystick.vi"/>
 			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../Functions/SecondaryRobotFunctions.vi"/>
 			<Item Name="ExponentialSmoothing.vi" Type="VI" URL="../Functions/ExponentialSmoothing.vi"/>
 		</Item>
+		<Item Name="Global Variables" Type="Folder">
+			<Item Name="Trajectory Enabled.vi" Type="VI" URL="../Functions/Global Variables/Trajectory Enabled.vi"/>
+			<Item Name="reset gyro.vi" Type="VI" URL="../Functions/Global Variables/reset gyro.vi"/>
+			<Item Name="Robot State.vi" Type="VI" URL="../Functions/Global Variables/Robot State.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Begin Swerve Drive.vi" Type="VI" URL="../Functions/Pivot Drive/Begin Swerve Drive.vi"/>
-		<Item Name="Initialize Joystick.vi" Type="VI" URL="../Functions/Initialize Joystick.vi"/>
-		<Item Name="Intitialize Lift System.vi" Type="VI" URL="../Functions/Lift/Intitialize Lift System.vi"/>
-		<Item Name="Initialize Arm System.vi" Type="VI" URL="../Functions/Arm Curl System/Initialize Arm System.vi"/>
-		<Item Name="Initialize Ball Intake System.vi" Type="VI" URL="../Functions/Arm Curl System/Initialize Ball Intake System.vi"/>
-		<Item Name="Initialize Grip System.vi" Type="VI" URL="../Functions/Arm Curl System/Initialize Grip System.vi"/>
-		<Item Name="Initialize Gyro.vi" Type="VI" URL="../Functions/Initialize Gyro.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
