@@ -121,6 +121,8 @@ AddOutputFilter chunkFilter
 			<Item Name="ADIS Gyro Values.ctl" Type="VI" URL="../Controls/ADIS Gyro Values.ctl"/>
 			<Item Name="DriveJoystickButtonMapping.ctl" Type="VI" URL="../Controls/DriveJoystickButtonMapping.ctl"/>
 			<Item Name="SecondaryJoystickButtons.ctl" Type="VI" URL="../Controls/SecondaryJoystickButtons.ctl"/>
+			<Item Name="Enable Actions.ctl" Type="VI" URL="../Controls/Enable Actions.ctl"/>
+			<Item Name="Climb Motor Commands.ctl" Type="VI" URL="../Controls/Climb Motor Commands.ctl"/>
 		</Item>
 		<Item Name="Dev Code" Type="Folder">
 			<Item Name="Deadband Joystick.vi" Type="VI" URL="../Dev Code/Deadband Joystick.vi"/>
@@ -154,6 +156,7 @@ AddOutputFilter chunkFilter
 				<Item Name="GetActualSteerAngles.vi" Type="VI" URL="../Functions/Pivot Drive/GetActualSteerAngles.vi"/>
 				<Item Name="reset gyro.vi" Type="VI" URL="../Functions/Pivot Drive/reset gyro.vi"/>
 				<Item Name="getdrive joystick.vi" Type="VI" URL="../Functions/Pivot Drive/getdrive joystick.vi"/>
+				<Item Name="ControlDriveDistance.vi" Type="VI" URL="../Functions/Pivot Drive/ControlDriveDistance.vi"/>
 			</Item>
 			<Item Name="Lift" Type="Folder">
 				<Item Name="LiftSystem.vi" Type="VI" URL="../Functions/Lift/LiftSystem.vi"/>
