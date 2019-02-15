@@ -123,6 +123,12 @@ AddOutputFilter chunkFilter
 			<Item Name="SecondaryJoystickButtons.ctl" Type="VI" URL="../Controls/SecondaryJoystickButtons.ctl"/>
 			<Item Name="Enable Actions.ctl" Type="VI" URL="../Controls/Enable Actions.ctl"/>
 			<Item Name="Climb Motor Commands.ctl" Type="VI" URL="../Controls/Climb Motor Commands.ctl"/>
+			<Item Name="Arm Motor Commands.ctl" Type="VI" URL="../Controls/Arm Motor Commands.ctl"/>
+			<Item Name="Ball Motor Commands.ctl" Type="VI" URL="../Controls/Ball Motor Commands.ctl"/>
+			<Item Name="Dics Eject Command.ctl" Type="VI" URL="../Controls/Dics Eject Command.ctl"/>
+			<Item Name="Grip Motor Commands.ctl" Type="VI" URL="../Controls/Grip Motor Commands.ctl"/>
+			<Item Name="Lift Motor Commands.ctl" Type="VI" URL="../Controls/Lift Motor Commands.ctl"/>
+			<Item Name="Robot State.ctl" Type="VI" URL="../Controls/Robot State.ctl"/>
 		</Item>
 		<Item Name="Dev Code" Type="Folder">
 			<Item Name="Deadband Joystick.vi" Type="VI" URL="../Dev Code/Deadband Joystick.vi"/>
@@ -188,6 +194,13 @@ AddOutputFilter chunkFilter
 			<Item Name="ExponentialSmoothing.vi" Type="VI" URL="../Functions/ExponentialSmoothing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Begin Swerve Drive.vi" Type="VI" URL="../Functions/Pivot Drive/Begin Swerve Drive.vi"/>
+		<Item Name="Initialize Joystick.vi" Type="VI" URL="../Functions/Initialize Joystick.vi"/>
+		<Item Name="Intitialize Lift System.vi" Type="VI" URL="../Functions/Lift/Intitialize Lift System.vi"/>
+		<Item Name="Initialize Arm System.vi" Type="VI" URL="../Functions/Arm Curl System/Initialize Arm System.vi"/>
+		<Item Name="Initialize Ball Intake System.vi" Type="VI" URL="../Functions/Arm Curl System/Initialize Ball Intake System.vi"/>
+		<Item Name="Initialize Grip System.vi" Type="VI" URL="../Functions/Arm Curl System/Initialize Grip System.vi"/>
+		<Item Name="Initialize Gyro.vi" Type="VI" URL="../Functions/Initialize Gyro.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
