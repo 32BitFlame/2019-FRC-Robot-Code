@@ -123,12 +123,6 @@ AddOutputFilter chunkFilter
 			<Item Name="SecondaryJoystickButtons.ctl" Type="VI" URL="../Controls/SecondaryJoystickButtons.ctl"/>
 			<Item Name="Enable Actions.ctl" Type="VI" URL="../Controls/Enable Actions.ctl"/>
 			<Item Name="Climb Motor Commands.ctl" Type="VI" URL="../Controls/Climb Motor Commands.ctl"/>
-			<Item Name="Arm Motor Commands.ctl" Type="VI" URL="../Controls/Arm Motor Commands.ctl"/>
-			<Item Name="Ball Motor Commands.ctl" Type="VI" URL="../Controls/Ball Motor Commands.ctl"/>
-			<Item Name="Dics Eject Command.ctl" Type="VI" URL="../Controls/Dics Eject Command.ctl"/>
-			<Item Name="Grip Motor Commands.ctl" Type="VI" URL="../Controls/Grip Motor Commands.ctl"/>
-			<Item Name="Lift Motor Commands.ctl" Type="VI" URL="../Controls/Lift Motor Commands.ctl"/>
-			<Item Name="Robot State.ctl" Type="VI" URL="../Controls/Robot State.ctl"/>
 		</Item>
 		<Item Name="Dev Code" Type="Folder">
 			<Item Name="Deadband Joystick.vi" Type="VI" URL="../Dev Code/Deadband Joystick.vi"/>
@@ -160,30 +154,27 @@ AddOutputFilter chunkFilter
 				<Item Name="Get Gyro Sensor.vi" Type="VI" URL="../Functions/Pivot Drive/Get Gyro Sensor.vi"/>
 				<Item Name="RobotMotionCommands2Dashboard.vi" Type="VI" URL="../Functions/Pivot Drive/RobotMotionCommands2Dashboard.vi"/>
 				<Item Name="GetActualSteerAngles.vi" Type="VI" URL="../Functions/Pivot Drive/GetActualSteerAngles.vi"/>
-				<Item Name="Initialize Gyro.vi" Type="VI" URL="../Functions/Pivot Drive/Initialize Gyro.vi"/>
+				<Item Name="reset gyro.vi" Type="VI" URL="../Functions/Pivot Drive/reset gyro.vi"/>
 				<Item Name="getdrive joystick.vi" Type="VI" URL="../Functions/Pivot Drive/getdrive joystick.vi"/>
 				<Item Name="ControlDriveDistance.vi" Type="VI" URL="../Functions/Pivot Drive/ControlDriveDistance.vi"/>
-				<Item Name="Begin Swerve Drive.vi" Type="VI" URL="../Functions/Pivot Drive/Begin Swerve Drive.vi"/>
 			</Item>
 			<Item Name="Lift" Type="Folder">
 				<Item Name="LiftSystem.vi" Type="VI" URL="../Functions/Lift/LiftSystem.vi"/>
 				<Item Name="Lift Enable Brakes.vi" Type="VI" URL="../Functions/Lift/Lift Enable Brakes.vi"/>
 				<Item Name="Set Lift Speeds.vi" Type="VI" URL="../Functions/Lift/Set Lift Speeds.vi"/>
-				<Item Name="Intitialize Lift System.vi" Type="VI" URL="../Functions/Lift/Intitialize Lift System.vi"/>
 				<Item Name="GetLiftLimitSwitches.vi" Type="VI" URL="../Functions/Lift/GetLiftLimitSwitches.vi"/>
 				<Item Name="Calc Lift Speeds.vi" Type="VI" URL="../Functions/Lift/Calc Lift Speeds.vi"/>
 			</Item>
 			<Item Name="Ball Intake" Type="Folder">
 				<Item Name="Ball Intake.vi" Type="VI" URL="../Functions/Ball Intake/Ball Intake.vi"/>
-				<Item Name="Initialize Ball Intake System.vi" Type="VI" URL="../Functions/Ball Intake/Initialize Ball Intake System.vi"/>
 				<Item Name="SetBallMotorSpeed.vi" Type="VI" URL="../Functions/Ball Intake/SetBallMotorSpeed.vi"/>
 				<Item Name="Ball Intake System.vi" Type="VI" URL="../Functions/Ball Intake/Ball Intake System.vi"/>
+				<Item Name="Shoot Disk.vi" Type="VI" URL="../Functions/Ball Intake/Shoot Disk.vi"/>
 			</Item>
 			<Item Name="ArmCurlSystem" Type="Folder">
 				<Item Name="ArmCurls.vi" Type="VI" URL="../Functions/Arm Curl System/ArmCurls.vi"/>
 				<Item Name="GetCurlSpeed.vi" Type="VI" URL="../Functions/Arm Curl System/GetCurlSpeed.vi"/>
 				<Item Name="CalcArmCurlSpeed.vi" Type="VI" URL="../Functions/Arm Curl System/CalcArmCurlSpeed.vi"/>
-				<Item Name="Initialize Arm System.vi" Type="VI" URL="../Functions/Arm Curl System/Initialize Arm System.vi"/>
 				<Item Name="ArmCurlSystem.vi" Type="VI" URL="../Functions/Arm Curl System/ArmCurlSystem.vi"/>
 				<Item Name="GetActualShoulderAngleData.vi" Type="VI" URL="../Functions/Arm Curl System/GetActualShoulderAngleData.vi"/>
 			</Item>
@@ -191,18 +182,11 @@ AddOutputFilter chunkFilter
 				<Item Name="GetGripLimitSwitches.vi" Type="VI" URL="../Functions/Grip/GetGripLimitSwitches.vi"/>
 				<Item Name="Grip System.vi" Type="VI" URL="../Functions/Grip/Grip System.vi"/>
 				<Item Name="MoveGrip.vi" Type="VI" URL="../Functions/Grip/MoveGrip.vi"/>
-				<Item Name="Initialize Grip System.vi" Type="VI" URL="../Functions/Grip/Initialize Grip System.vi"/>
 			</Item>
 			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../Functions/SecondaryJoystickAcquire.vi"/>
 			<Item Name="SecondaryJoystickButtonMapping.vi" Type="VI" URL="../Functions/SecondaryJoystickButtonMapping.vi"/>
-			<Item Name="Initialize Joystick.vi" Type="VI" URL="../Functions/Initialize Joystick.vi"/>
 			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../Functions/SecondaryRobotFunctions.vi"/>
 			<Item Name="ExponentialSmoothing.vi" Type="VI" URL="../Functions/ExponentialSmoothing.vi"/>
-		</Item>
-		<Item Name="Global Variables" Type="Folder">
-			<Item Name="Trajectory Enabled.vi" Type="VI" URL="../Functions/Global Variables/Trajectory Enabled.vi"/>
-			<Item Name="reset gyro.vi" Type="VI" URL="../Functions/Global Variables/reset gyro.vi"/>
-			<Item Name="Robot State.vi" Type="VI" URL="../Functions/Global Variables/Robot State.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -734,6 +718,34 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_EncoderConfigureTimer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderConfigureTimer.vi"/>
 				<Item Name="WPI_EncoderReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderReset.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="WPI_SerialPortRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortRef.ctl"/>
+				<Item Name="WPI_SerialPortWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortWrite.vi"/>
+				<Item Name="WPI_SerialPortReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortReset.vi"/>
+				<Item Name="WPI_SerialPortRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortRead.vi"/>
+				<Item Name="WPI_SerialPortTermination.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortTermination.vi"/>
+				<Item Name="WPI_SerialPortCoiteratedSort.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortCoiteratedSort.vi"/>
+				<Item Name="WPI_SerialPortQueryHubPaths.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortQueryHubPaths.vi"/>
+				<Item Name="WPI_SerialPort.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPort.ctl"/>
+				<Item Name="WPI_SerialPortGetPortName.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortGetPortName.vi"/>
+				<Item Name="WPI_SerialPortOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortOpen.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
+				<Item Name="WPI_SerialPortClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortClose.vi"/>
+				<Item Name="WPI_SerialPortGetBytesReceived.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortGetBytesReceived.vi"/>
+				<Item Name="FPGA_UtilitiesRead LocalTime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Utilities/FPGA_UtilitiesRead LocalTime.vi"/>
+				<Item Name="WPI_UtilitiesFRC FPGATime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC FPGATime.vi"/>
+				<Item Name="i2clib_write.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_write.vi"/>
+				<Item Name="i2clib_read.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_read.vi"/>
+				<Item Name="i2clib_writeread.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_writeread.vi"/>
+				<Item Name="WPI_I2CDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CDevRef.ctl"/>
+				<Item Name="WPI_I2CRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRead.vi"/>
+				<Item Name="i2clib_open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_open.vi"/>
+				<Item Name="WPI_I2C_ERRI2CAlreadyAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2C_ERRI2CAlreadyAllocated.vi"/>
+				<Item Name="WPI_I2C_ERRInvalidI2C_Index.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2C_ERRInvalidI2C_Index.vi"/>
+				<Item Name="WPI_I2CBusCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CBusCache.vi"/>
+				<Item Name="WPI_I2COpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2COpen.vi"/>
+				<Item Name="i2clib_close.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_close.vi"/>
+				<Item Name="WPI_I2CClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CClose.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -749,6 +761,81 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="ADIS16448_IMU.lvlib" Type="Library" URL="../gyro sensor adis/ADIS16448 IMU/ADIS16448_IMU.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Begin Swerve Drive.vi" Type="VI" URL="../Functions/Pivot Drive/Begin Swerve Drive.vi"/>
+			<Item Name="Initialize Joystick.vi" Type="VI" URL="../Functions/Initialize Joystick.vi"/>
+			<Item Name="Intitialize Lift System.vi" Type="VI" URL="../Functions/Lift/Intitialize Lift System.vi"/>
+			<Item Name="Initialize Arm System.vi" Type="VI" URL="../Functions/Arm Curl System/Initialize Arm System.vi"/>
+			<Item Name="Initialize Ball Intake System.vi" Type="VI" URL="../Functions/Ball Intake/Initialize Ball Intake System.vi"/>
+			<Item Name="Initialize Grip System.vi" Type="VI" URL="../Functions/Grip/Initialize Grip System.vi"/>
+			<Item Name="Initialize Gyro.vi" Type="VI" URL="../Functions/Pivot Drive/Initialize Gyro.vi"/>
+			<Item Name="BeginDiscEjectSystem.vi" Type="VI" URL="../Functions/Disc Eject/BeginDiscEjectSystem.vi"/>
+			<Item Name="reset gyro.vi" Type="VI" URL="../Functions/Global Variables/reset gyro.vi"/>
+			<Item Name="Disc Eject System.vi" Type="VI" URL="../Functions/Disc Eject/Disc Eject System.vi"/>
+			<Item Name="EjectDisc.vi" Type="VI" URL="../Functions/Disc Eject/EjectDisc.vi"/>
+			<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
+			<Item Name="Get_Error_Status.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_Error_Status.vi"/>
+			<Item Name="Z900_navX_Util_BigEndian_to_LittleEndian.vi" Type="VI" URL="../gyro sensor NavX/_Util/Z900_navX_Util_BigEndian_to_LittleEndian.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_Int16.vi" Type="VI" URL="../gyro sensor NavX/_Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_Int16.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_UInt16.vi" Type="VI" URL="../gyro sensor NavX/_Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_UInt16.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_UnsignedHundredths.vi" Type="VI" URL="../gyro sensor NavX/_Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_UnsignedHundredths.vi"/>
+			<Item Name="Z900_navX_Util_EncodeProtocol_SignedHundredths.vi" Type="VI" URL="../gyro sensor NavX/_Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_SignedHundredths.vi"/>
+			<Item Name="Z900_navX_DeviceRegisters.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Z900_navX_DeviceRegisters.ctl"/>
+			<Item Name="Z900_navX_SERIAL_DecodePacket.vi" Type="VI" URL="../gyro sensor NavX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_DecodePacket.vi"/>
+			<Item Name="Get_Connect_Status.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_Connect_Status.vi"/>
+			<Item Name="Z900_navX_SERIAL_ValidatePacketTermination.vi" Type="VI" URL="../gyro sensor NavX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_ValidatePacketTermination.vi"/>
+			<Item Name="Z900_navX_SERIAL_ValidatePacketChecksum.vi" Type="VI" URL="../gyro sensor NavX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_ValidatePacketChecksum.vi"/>
+			<Item Name="Z900_navX_SERIAL_CapturePacket.vi" Type="VI" URL="../gyro sensor NavX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_CapturePacket.vi"/>
+			<Item Name="FRIC_navX_Clear_Buffer_Warning.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Clear_Buffer_Warning.vi"/>
+			<Item Name="Z900_navX_IntegrationControlRegisters.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Z900_navX_IntegrationControlRegisters.ctl"/>
+			<Item Name="Z900_navX_SerialStreamTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Z900_navX_SerialStreamTypeDef.ctl"/>
+			<Item Name="Z900_navX_ActionTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Z900_navX_ActionTypeDef.ctl"/>
+			<Item Name="Z900_navX_NotifyPacketTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Z900_navX_NotifyPacketTypeDef.ctl"/>
+			<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
+			<Item Name="Z900_navX_DeviceTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Z900_navX_DeviceTypeDef.ctl"/>
+			<Item Name="FRIC_navX_ProcessingLoopStatesTypeDef_I2C.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/FRIC_navX_ProcessingLoopStatesTypeDef_I2C.ctl"/>
+			<Item Name="FRIC_navX_I2C Process Loop TypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/FRIC_navX_I2C Process Loop TypeDef.ctl"/>
+			<Item Name="FRIC_navX_Internal_ProcessingLoop_AddToArray.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_ProcessingLoop_AddToArray.vi"/>
+			<Item Name="Z900_navX_SERIAL_PacketChecksum.vi" Type="VI" URL="../gyro sensor NavX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_PacketChecksum.vi"/>
+			<Item Name="Z900_navX_ZeroVectorTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Z900_navX_ZeroVectorTypeDef.ctl"/>
+			<Item Name="FRIC_navX_Internal_Serial_GenerateCommand.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_Serial_GenerateCommand.vi"/>
+			<Item Name="Get_Notifier_REF_Once.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/Get_Notifier_REF_Once.vi"/>
+			<Item Name="Send_Notifier.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/Send_Notifier.vi"/>
+			<Item Name="Update Serial Stream.vi" Type="VI" URL="../gyro sensor NavX/Set/Update Serial Stream.vi"/>
+			<Item Name="FRIC_navX_Get_Registry.vi" Type="VI" URL="../gyro sensor NavX/Get/_Internal/FRIC_navX_Get_Registry.vi"/>
+			<Item Name="Get_Notifier_Hault_Notifier.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/Get_Notifier_Hault_Notifier.vi"/>
+			<Item Name="Get_HaultStatus.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_HaultStatus.vi"/>
+			<Item Name="Z900_navX_Util_LittleEndian_to_BigEndian.vi" Type="VI" URL="../gyro sensor NavX/_Util/Z900_navX_Util_LittleEndian_to_BigEndian.vi"/>
+			<Item Name="FRIC_navX_Util_DecodeProtocol_UInt16.vi" Type="VI" URL="../gyro sensor NavX/_Util/Decode/FRIC_navX_Util_DecodeProtocol_UInt16.vi"/>
+			<Item Name="FRIC_navX_Util_DecodeProtocol_Int16.vi" Type="VI" URL="../gyro sensor NavX/_Util/Decode/FRIC_navX_Util_DecodeProtocol_Int16.vi"/>
+			<Item Name="Get_YPRHfH.vi" Type="VI" URL="../gyro sensor NavX/Get/Get_YPRHfH.vi"/>
+			<Item Name="Get_STREAM_TYPE.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_STREAM_TYPE.vi"/>
+			<Item Name="Get_Quaternion.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_Quaternion.vi"/>
+			<Item Name="Get_LinearAcceleration.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_LinearAcceleration.vi"/>
+			<Item Name="FRIC_navX_Util_DecodeProtocol_Int32.vi" Type="VI" URL="../gyro sensor NavX/_Util/Decode/FRIC_navX_Util_DecodeProtocol_Int32.vi"/>
+			<Item Name="FRIC_navX_DecodeRegisterLengthClusterTypeDef_.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/FRIC_navX_DecodeRegisterLengthClusterTypeDef_.ctl"/>
+			<Item Name="Get_Displacement.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_Displacement.vi"/>
+			<Item Name="Get_MPUTemp.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_MPUTemp.vi"/>
+			<Item Name="Z900_navX_Flags_CapabilityTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Flags/Z900_navX_Flags_CapabilityTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_OmnimountConfigTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Flags/Z900_navX_Flags_OmnimountConfigTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_HardwareRevTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Flags/Z900_navX_Flags_HardwareRevTypeDef.ctl"/>
+			<Item Name="Get_BoardInformation.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_BoardInformation.vi"/>
+			<Item Name="FRIC_navX_Get_RawValues_GyroAccelMag.vi" Type="VI" URL="../gyro sensor NavX/Get/_Raw Values/FRIC_navX_Get_RawValues_GyroAccelMag.vi"/>
+			<Item Name="Z900_navX_Flags_SelfTestStatusTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Flags/Z900_navX_Flags_SelfTestStatusTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_CalibrationStatusTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Flags/Z900_navX_Flags_CalibrationStatusTypeDef.ctl"/>
+			<Item Name="Z900_navX_Flags_OpStatusTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/Flags/Z900_navX_Flags_OpStatusTypeDef.ctl"/>
+			<Item Name="Get_Status.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_Status.vi"/>
+			<Item Name="FRIC_navX_Util_DecodeProtocol_UInt32.vi" Type="VI" URL="../gyro sensor NavX/_Util/Decode/FRIC_navX_Util_DecodeProtocol_UInt32.vi"/>
+			<Item Name="Get_Timestamp.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_Timestamp.vi"/>
+			<Item Name="FRIC_navX_Internal_ProcessingLoop_UpdateAE.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_ProcessingLoop_UpdateAE.vi"/>
+			<Item Name="FRIC_navX_Get_NextState_ProcessLoop.vi" Type="VI" URL="../gyro sensor NavX/Get/_Internal/FRIC_navX_Get_NextState_ProcessLoop.vi"/>
+			<Item Name="FRIC_navX_Internal_USB_ProcessingLoop.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_USB_ProcessingLoop.vi"/>
+			<Item Name="FRIC_navX_Internal_Serial_ProcessingLoop.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_Serial_ProcessingLoop.vi"/>
+			<Item Name="navX_SPI_CRC.vi" Type="VI" URL="../gyro sensor NavX/_Device/_Internal/SPI/navX_SPI_CRC.vi"/>
+			<Item Name="FRIC_navX_Internal_SPI_GenerateCommand.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_SPI_GenerateCommand.vi"/>
+			<Item Name="FRIC_navX_Internal_SPI_ProcessingLoop.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_SPI_ProcessingLoop.vi"/>
+			<Item Name="FRIC_navX_Internal_I2C_GenerateCommand.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_I2C_GenerateCommand.vi"/>
+			<Item Name="FRIC_navX_Internal_I2C_ProcessingLoop.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_I2C_ProcessingLoop.vi"/>
+			<Item Name="NavX Main.vi" Type="VI" URL="../gyro sensor NavX/NavX Main.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -766,7 +853,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">61</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
