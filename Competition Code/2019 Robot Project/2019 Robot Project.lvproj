@@ -100,93 +100,20 @@ AddOutputFilter chunkFilter
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Support Code" Type="Folder">
-			<Item Name="Elapsed Times.vi" Type="VI" URL="../Support Code/Elapsed Times.vi"/>
+		<Item Name="Controls" Type="Folder" URL="../Controls">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Team Code" Type="Folder">
-			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Team Code/Autonomous Independent.vi"/>
-			<Item Name="Begin.vi" Type="VI" URL="../Team Code/Begin.vi"/>
-			<Item Name="Disabled.vi" Type="VI" URL="../Team Code/Disabled.vi"/>
-			<Item Name="Finish.vi" Type="VI" URL="../Team Code/Finish.vi"/>
-			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Team Code/Periodic Tasks.vi"/>
-			<Item Name="Robot Global Data.vi" Type="VI" URL="../Team Code/Robot Global Data.vi"/>
-			<Item Name="Teleop.vi" Type="VI" URL="../Team Code/Teleop.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../Team Code/Test.vi"/>
-			<Item Name="Vision Processing.vi" Type="VI" URL="../Team Code/Vision Processing.vi"/>
+		<Item Name="Dev Code" Type="Folder" URL="../Dev Code">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Controls" Type="Folder">
-			<Item Name="Pivot Motor Commands.ctl" Type="VI" URL="../Controls/Pivot Motor Commands.ctl"/>
-			<Item Name="Robot Drive Mode.ctl" Type="VI" URL="../Controls/Robot Drive Mode.ctl"/>
-			<Item Name="Robot Pivot Motion Commands.ctl" Type="VI" URL="../Controls/Robot Pivot Motion Commands.ctl"/>
-			<Item Name="ADIS Gyro Values.ctl" Type="VI" URL="../Controls/ADIS Gyro Values.ctl"/>
-			<Item Name="DriveJoystickButtonMapping.ctl" Type="VI" URL="../Controls/DriveJoystickButtonMapping.ctl"/>
-			<Item Name="SecondaryJoystickButtons.ctl" Type="VI" URL="../Controls/SecondaryJoystickButtons.ctl"/>
-			<Item Name="Enable Actions.ctl" Type="VI" URL="../Controls/Enable Actions.ctl"/>
-			<Item Name="Climb Motor Commands.ctl" Type="VI" URL="../Controls/Climb Motor Commands.ctl"/>
+		<Item Name="Functions" Type="Folder" URL="../Functions">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Dev Code" Type="Folder">
-			<Item Name="Deadband Joystick.vi" Type="VI" URL="../Dev Code/Deadband Joystick.vi"/>
-			<Item Name="Encoder Data.ctl" Type="VI" URL="../Dev Code/Encoder Data.ctl"/>
-			<Item Name="Kinematics Data.ctl" Type="VI" URL="../Dev Code/Kinematics Data.ctl"/>
-			<Item Name="Get Angle Errors.vi" Type="VI" URL="../Dev Code/Get Angle Errors.vi"/>
-			<Item Name="Get Encoder.vi" Type="VI" URL="../Dev Code/Get Encoder.vi"/>
-			<Item Name="Joystick to Swerve New.vi" Type="VI" URL="../Dev Code/Joystick to Swerve New.vi"/>
-			<Item Name="Swerve Drive.vi" Type="VI" URL="../Dev Code/Swerve Drive.vi"/>
-			<Item Name="Fix Angles.vi" Type="VI" URL="../Dev Code/Fix Angles.vi"/>
-			<Item Name="Fix Offset.vi" Type="VI" URL="../Dev Code/Fix Offset.vi"/>
-			<Item Name="Get Error.vi" Type="VI" URL="../Dev Code/Get Error.vi"/>
-			<Item Name="Error Data.ctl" Type="VI" URL="../Dev Code/Error Data.ctl"/>
-			<Item Name="Motor Data.ctl" Type="VI" URL="../Dev Code/Motor Data.ctl"/>
-			<Item Name="Control Drive Motors.vi" Type="VI" URL="../Dev Code/Control Drive Motors.vi"/>
-			<Item Name="Control Pivot Motors.vi" Type="VI" URL="../Dev Code/Control Pivot Motors.vi"/>
+		<Item Name="Support Code" Type="Folder" URL="../Support Code">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Functions" Type="Folder">
-			<Item Name="Pivot Drive" Type="Folder">
-				<Item Name="ControlDriveVelocity.vi" Type="VI" URL="../Functions/Pivot Drive/ControlDriveVelocity.vi"/>
-				<Item Name="FindMinSteerAngleError.vi" Type="VI" URL="../Functions/Pivot Drive/FindMinSteerAngleError.vi"/>
-				<Item Name="find steer angle errors.vi" Type="VI" URL="../Functions/Pivot Drive/find steer angle errors.vi"/>
-				<Item Name="DriveJoystickAcquire.vi" Type="VI" URL="../Functions/Pivot Drive/DriveJoystickAcquire.vi"/>
-				<Item Name="joystick scaleNtransform.vi" Type="VI" URL="../Functions/Pivot Drive/joystick scaleNtransform.vi"/>
-				<Item Name="Joystick2RobotMotorCommands.vi" Type="VI" URL="../Functions/Pivot Drive/Joystick2RobotMotorCommands.vi"/>
-				<Item Name="JoystickDeadband.vi" Type="VI" URL="../Functions/Pivot Drive/JoystickDeadband.vi"/>
-				<Item Name="DriveJoystickButtonMapping.vi" Type="VI" URL="../Functions/Pivot Drive/DriveJoystickButtonMapping.vi"/>
-				<Item Name="ControlSteerAngle.vi" Type="VI" URL="../Functions/Pivot Drive/ControlSteerAngle.vi"/>
-				<Item Name="Get Gyro Sensor.vi" Type="VI" URL="../Functions/Pivot Drive/Get Gyro Sensor.vi"/>
-				<Item Name="RobotMotionCommands2Dashboard.vi" Type="VI" URL="../Functions/Pivot Drive/RobotMotionCommands2Dashboard.vi"/>
-				<Item Name="GetActualSteerAngles.vi" Type="VI" URL="../Functions/Pivot Drive/GetActualSteerAngles.vi"/>
-				<Item Name="reset gyro.vi" Type="VI" URL="../Functions/Pivot Drive/reset gyro.vi"/>
-				<Item Name="getdrive joystick.vi" Type="VI" URL="../Functions/Pivot Drive/getdrive joystick.vi"/>
-				<Item Name="ControlDriveDistance.vi" Type="VI" URL="../Functions/Pivot Drive/ControlDriveDistance.vi"/>
-			</Item>
-			<Item Name="Lift" Type="Folder">
-				<Item Name="LiftSystem.vi" Type="VI" URL="../Functions/Lift/LiftSystem.vi"/>
-				<Item Name="Lift Enable Brakes.vi" Type="VI" URL="../Functions/Lift/Lift Enable Brakes.vi"/>
-				<Item Name="Set Lift Speeds.vi" Type="VI" URL="../Functions/Lift/Set Lift Speeds.vi"/>
-				<Item Name="GetLiftLimitSwitches.vi" Type="VI" URL="../Functions/Lift/GetLiftLimitSwitches.vi"/>
-				<Item Name="Calc Lift Speeds.vi" Type="VI" URL="../Functions/Lift/Calc Lift Speeds.vi"/>
-			</Item>
-			<Item Name="Ball Intake" Type="Folder">
-				<Item Name="Ball Intake.vi" Type="VI" URL="../Functions/Ball Intake/Ball Intake.vi"/>
-				<Item Name="SetBallMotorSpeed.vi" Type="VI" URL="../Functions/Ball Intake/SetBallMotorSpeed.vi"/>
-				<Item Name="Ball Intake System.vi" Type="VI" URL="../Functions/Ball Intake/Ball Intake System.vi"/>
-				<Item Name="Shoot Disk.vi" Type="VI" URL="../Functions/Ball Intake/Shoot Disk.vi"/>
-			</Item>
-			<Item Name="ArmCurlSystem" Type="Folder">
-				<Item Name="ArmCurls.vi" Type="VI" URL="../Functions/Arm Curl System/ArmCurls.vi"/>
-				<Item Name="GetCurlSpeed.vi" Type="VI" URL="../Functions/Arm Curl System/GetCurlSpeed.vi"/>
-				<Item Name="CalcArmCurlSpeed.vi" Type="VI" URL="../Functions/Arm Curl System/CalcArmCurlSpeed.vi"/>
-				<Item Name="ArmCurlSystem.vi" Type="VI" URL="../Functions/Arm Curl System/ArmCurlSystem.vi"/>
-				<Item Name="GetActualShoulderAngleData.vi" Type="VI" URL="../Functions/Arm Curl System/GetActualShoulderAngleData.vi"/>
-			</Item>
-			<Item Name="Grip" Type="Folder">
-				<Item Name="GetGripLimitSwitches.vi" Type="VI" URL="../Functions/Grip/GetGripLimitSwitches.vi"/>
-				<Item Name="Grip System.vi" Type="VI" URL="../Functions/Grip/Grip System.vi"/>
-				<Item Name="MoveGrip.vi" Type="VI" URL="../Functions/Grip/MoveGrip.vi"/>
-			</Item>
-			<Item Name="SecondaryJoystickAcquire.vi" Type="VI" URL="../Functions/SecondaryJoystickAcquire.vi"/>
-			<Item Name="SecondaryJoystickButtonMapping.vi" Type="VI" URL="../Functions/SecondaryJoystickButtonMapping.vi"/>
-			<Item Name="SecondaryRobotFunctions.vi" Type="VI" URL="../Functions/SecondaryRobotFunctions.vi"/>
-			<Item Name="ExponentialSmoothing.vi" Type="VI" URL="../Functions/ExponentialSmoothing.vi"/>
+		<Item Name="Team Code" Type="Folder" URL="../Team Code">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -761,17 +688,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="ADIS16448_IMU.lvlib" Type="Library" URL="../gyro sensor adis/ADIS16448 IMU/ADIS16448_IMU.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Begin Swerve Drive.vi" Type="VI" URL="../Functions/Pivot Drive/Begin Swerve Drive.vi"/>
-			<Item Name="Initialize Joystick.vi" Type="VI" URL="../Functions/Initialize Joystick.vi"/>
-			<Item Name="Intitialize Lift System.vi" Type="VI" URL="../Functions/Lift/Intitialize Lift System.vi"/>
-			<Item Name="Initialize Arm System.vi" Type="VI" URL="../Functions/Arm Curl System/Initialize Arm System.vi"/>
-			<Item Name="Initialize Ball Intake System.vi" Type="VI" URL="../Functions/Ball Intake/Initialize Ball Intake System.vi"/>
-			<Item Name="Initialize Grip System.vi" Type="VI" URL="../Functions/Grip/Initialize Grip System.vi"/>
-			<Item Name="Initialize Gyro.vi" Type="VI" URL="../Functions/Pivot Drive/Initialize Gyro.vi"/>
-			<Item Name="BeginDiscEjectSystem.vi" Type="VI" URL="../Functions/Disc Eject/BeginDiscEjectSystem.vi"/>
-			<Item Name="reset gyro.vi" Type="VI" URL="../Functions/Global Variables/reset gyro.vi"/>
-			<Item Name="Disc Eject System.vi" Type="VI" URL="../Functions/Disc Eject/Disc Eject System.vi"/>
-			<Item Name="EjectDisc.vi" Type="VI" URL="../Functions/Disc Eject/EjectDisc.vi"/>
 			<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="../gyro sensor NavX/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
 			<Item Name="Get_Error_Status.vi" Type="VI" URL="../gyro sensor NavX/Get/Advanced/Get_Error_Status.vi"/>
 			<Item Name="Z900_navX_Util_BigEndian_to_LittleEndian.vi" Type="VI" URL="../gyro sensor NavX/_Util/Z900_navX_Util_BigEndian_to_LittleEndian.vi"/>
@@ -836,6 +752,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FRIC_navX_Internal_I2C_GenerateCommand.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_I2C_GenerateCommand.vi"/>
 			<Item Name="FRIC_navX_Internal_I2C_ProcessingLoop.vi" Type="VI" URL="../gyro sensor NavX/_Processing Loop/FRIC_navX_Internal_I2C_ProcessingLoop.vi"/>
 			<Item Name="NavX Main.vi" Type="VI" URL="../gyro sensor NavX/NavX Main.vi"/>
+			<Item Name="Zero Yaw.vi" Type="VI" URL="../gyro sensor NavX/Set/Zero Yaw.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
